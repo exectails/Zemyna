@@ -22,7 +22,7 @@ If you want to use Zemyna on a server that doesn't use the Steam auto-login, but
 
 Zemyna uses the same API as the tool it was inspired by, "Alissa". It uses WM_COPY messages to communicate between Zemyna's and the subscriber's window. To subscribe to Zemyna, to receive packets, you send the "op" (dwData) `100` to Zemyna's window (window name: "mod_Tossa"), to unsubscribe, you send `101`. While you're subscribed, you receive all incoming (op `0x10101012`) and outgoing (op `0x10101011`) packets via the same method.
 
-For an actual example on how this works, I suggest looking at the corrosponding functions in [Pale](https://github.com/exectails/PaleTree/blob/master/PaleTree/FrmMain.cs#L561). Alternatively you can also create a plug-in for Pale, which will be easier.
+For an actual example on how this works, I suggest looking at the corresponding [functions in Pale](https://github.com/exectails/PaleTree/blob/master/PaleTree/FrmMain.cs#L561). Alternatively you can also create a plug-in for Pale, which will be easier.
 
 ##Restrictions
 
