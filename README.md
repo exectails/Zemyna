@@ -28,3 +28,13 @@ For an actual example on how this works, I suggest looking at the corresponding 
 
 - Zemyna currently only supports the Login and Channel servers.
 - Due to this game's protocol, Zemyna needs to be updated regularly, or there's a high chance for it not to function correctly. Check for updates after each game patch and report potential issues.
+
+##Korean TOS
+
+If you check the releases you will find multiple versions, one of them being for kTOS (notice the "k" prefix). Choose that one if you want to log packets on the Korean server.
+
+Due to kTOS using a web login, we had to do things a little differently for the Korean version of Zemyna. You need an additional argument, "kr", which activates certain KR only options. Example:
+
+Zemyna.exe host:54.88.25.242 port:2000 kr
+
+After you start Zemyna like that, the client won't start automatically, but it will still modify the client files, so when you finally start the client via the web login, the connection will still go through Zemyna, allowing you to log packets using PaleTree.
