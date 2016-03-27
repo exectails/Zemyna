@@ -35,6 +35,6 @@ If you check the releases you will find multiple versions, one of them being for
 
 Due to kTOS using a web login, we had to do things a little differently for the Korean version of Zemyna. You need an additional argument, "kr", which activates certain KR only options. Example:
 
-`Zemyna.exe host:54.88.25.242 port:2000 kr`
+`Zemyna.exe host:54.88.25.242 port:2000 kr nosteam`
 
 After you start Zemyna like that, the client won't start automatically, but it will still modify the client files, so when you finally start the client via the web login, the connection will still go through Zemyna, allowing you to log packets using PaleTree.
