@@ -72,9 +72,10 @@ Alternatively you can also create a plug-in for Pale, which will be easier.
 ## Restrictions
 
 - Zemyna currently only supports the Login and Channel servers.
-- Due to this game's protocol, Zemyna needs to be updated regularly, or there's
-a high chance for it not to function correctly. Check for updates after each
-game patch and report potential issues.
+- Due to this game's protocol, Zemyna's opcodes need to be updated regularly,
+or there's a high chance for it not to function correctly. Check for updates
+after each game patch and report potential issues, or update the opcodes text
+file yourself.
 
 ## Korean TOS
 
