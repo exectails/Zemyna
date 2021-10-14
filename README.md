@@ -21,12 +21,15 @@ Zemyna to your game folder:
 
 `Zemyna.exe host:54.88.25.242 port:2000`
 
-The IP and port are of the login server for Laima. For easier reusability,
-you should create a link or bat file. Zemyna will then take the necessary
-steps to be able to read packets from the network, and start the client.
-A small window in the upper left corner will show you that Zemyna is running,
-it closes automatically when the client gets closed. You can also double click
-it to quickly close Zemyna and the client.
+The IP and port are of the login server for Laima. You can look up the host
+and port for your target server in the official server list. The URL to it
+can be found in the client.xml.
+
+For easier reusability, you should create a link or bat file. Zemyna will
+then take the necessary steps to be able to read packets from the network,
+and start the client. A small window in the upper left corner will show you
+that Zemyna is running, it closes automatically when the client gets closed.
+You can also double click it to quickly close Zemyna and the client.
 
 Since you can only have one server in the server list this way, the one you
 specify in the parameters, you could create multiple links/bats, one for each
